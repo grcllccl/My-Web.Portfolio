@@ -9,90 +9,92 @@
 </head>
 <body>
 
-    <nav>
-        <div class="logo">grcll<span class="highlight">.</span>ccl</div>
-        <ul>
-            <li><a href="#home">Home</a></li>
-            <li><a href="#projects">Skills</a></li>
-            <li><a href="#aboutme">About Me</a></li>
-            <li><a href="#contact">Contact</a></li>
-            <li><a href="#resume">Resume</a></li>
-        </ul>
-    </nav>
+<nav>
+    <div class="logo">grcll<span class="highlight">.</span>ccl</div>
 
-    <main id="home">
-        <section class="hero">
-            <div class="hero-content">
-                <h1>COCAL <span class="highlight">GRACELLE</span></h1>
-                <p>Web Developer & Programmer</p>
-                <div class="hero-btns">
-                    <a href="#projects" class="btn">View Skills</a>
-                </div>
+    <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#projects">Skills</a></li>
+        <li><a href="#aboutme">About Me</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#resume">Resume</a></li>
+    </ul>
+
+    <button id="themeToggle">🌙</button>
+</nav>
+
+<main id="home">
+
+    <section class="hero">
+        <div class="hero-content">
+            <h1>COCAL <span class="highlight">GRACELLE</span></h1>
+            <p>Web Developer & Programmer</p>
+            <a href="#projects" class="btn">View Skills</a>
+        </div>
+
+        <div class="hero-image">
+            <img src="profile.jpg" alt="Profile" class="profile-pic floating">
+        </div>
+    </section>
+
+    <section id="projects">
+        <h2>TOOLS & TECHNOLOGIES</h2>
+        <p class="subtitle">Web Development & Programming</p>
+
+        <div class="skills-grid">
+            <div class="skill-box">
+                <img src="HTML.png" alt="HTML">
+                <p>HTML5</p>
             </div>
 
-            <div class="hero-image">
-                <div class="blob-wrapper">
-                    <img src="profile.jpg" alt="Profile Picture" class="profile-pic">
-                    <div class="blob-bg"></div>
-                </div>
+            <div class="skill-box">
+                <img src="css.png" alt="CSS">
+                <p>CSS3</p>
             </div>
-        </section>
 
-        <section id="projects" class="projects">
-            <div class="project-skill">
-                <h2>SKILLS</h2>
-                <article class="project-card">
-                    <h3>Web Development</h3>
-                    <p>Building modern interfaces with HTML, CSS, and JS.</p>
-                </article>
-                <article class="project-card">
-                    <h3>Mobile Apps</h3>
-                    <p>Developing  Mobile App.</p>
-                </article>
+            <div class="skill-box">
+                <img src="JS.png" alt="JavaScript">
+                <p>JavaScript</p>
             </div>
-        </section>
 
-        <section id="aboutme">
-            <div class="project-aboutme">
-                <h2>ABOUT ME</h2>
-                <article class="project-card">
-                
-                     <p>I am Gracelle R. Cocal, who eager to grow and develop skill in my choosen career path,</p>
-                     <p>I am passionate about earning, dedicated to achieving my goal, and motivated to gain</p>
-                     <p>experience through academics, trainning, and hands-on opportunities.</p>
-                </article>
+            <div class="skill-box">
+                <img src="java.png" alt="Java">
+                <p>Java</p>
             </div>
-        </section>
 
-        <section id="contact">
-            <div class="project-grid">
-                <h2>CONTACT</h2>
-                <article class="project-contact">
-                    
-                    <h3>Social Media</h3>
-                    <a href="http://www.facebook.com/gracelle.cocal.25" target="_blank">Facebook →</a>
-                    <br><br>
-                    <a href="http://www.instagram.com/ur.grcllcc.?ighs" target="_blank">Instagram →</a>
-                    <h3>Email</h3>
-                    <a href="mailto:gracellecocal530@gmail.com">gracellecocal530@gmail.com</a>
-                </article>
+            <div class="skill-box">
+                <img src="mysql.png" alt="MySQL">
+                <p>MySQL</p>
             </div>
-        </section>
-        <section id="resume">
-            <h2>RESUME</h2>
-            <div class="project-grid">
-                <article class="project-resume">
-                     <img src="Resume1.png" alt="Profile Picture" class="profile-pic">
-                     <img src="Resume2.png" alt="Profile Picture" class="profile-pic">
-                </article>
-            </div>
-        </section>
-    </main>
+        </div>
+    </section>
 
-    <footer>
-        <p>&copy; 2026 gars.</p>
-    </footer>
+    <section id="aboutme">
+        <h2>ABOUT ME</h2>
+        <div class="card">
+            <p>I am Gracelle R. Cocal, eager to grow and develop skills in my chosen career path.</p>
+            <p>I am passionate about learning and gaining experience through academics and hands-on opportunities.</p>
+        </div>
+    </section>
 
-    <script src="script.js"></script>
+    <section id="contact">
+        <h2>CONTACT</h2>
+        <div class="card">
+            <a href="http://www.facebook.com/gracelle.cocal.25" target="_blank">Facebook</a><br><br>
+            <a href="http://www.instagram.com/ur.grcllcc.?ighs" target="_blank">Instagram</a><br><br>
+            <a href="mailto:gracellecocal530@gmail.com">gracellecocal530@gmail.com</a>
+        </div>
+    </section>
+
+    <section id="resume">
+        <h2>RESUME</h2>
+        <div class="card resume-card">
+            <a href="Gracelle_Cocal.pdf" download class="btn">Download Resume</a>
+        </div>
+    </section>
+
+</main>
+
+<script src="script.js"></script>
 </body>
 </html>
